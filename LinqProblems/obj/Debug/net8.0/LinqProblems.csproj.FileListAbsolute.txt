@@ -1,0 +1,15 @@
+C:\Programs\LinqProblems\LinqProblems\bin\Debug\net8.0\LinqProblems.exe
+C:\Programs\LinqProblems\LinqProblems\bin\Debug\net8.0\LinqProblems.deps.json
+C:\Programs\LinqProblems\LinqProblems\bin\Debug\net8.0\LinqProblems.runtimeconfig.json
+C:\Programs\LinqProblems\LinqProblems\bin\Debug\net8.0\LinqProblems.dll
+C:\Programs\LinqProblems\LinqProblems\bin\Debug\net8.0\LinqProblems.pdb
+C:\Programs\LinqProblems\LinqProblems\obj\Debug\net8.0\LinqProblems.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programs\LinqProblems\LinqProblems\obj\Debug\net8.0\LinqProblems.AssemblyInfoInputs.cache
+C:\Programs\LinqProblems\LinqProblems\obj\Debug\net8.0\LinqProblems.AssemblyInfo.cs
+C:\Programs\LinqProblems\LinqProblems\obj\Debug\net8.0\LinqProblems.csproj.CoreCompileInputs.cache
+C:\Programs\LinqProblems\LinqProblems\obj\Debug\net8.0\LinqProblems.sourcelink.json
+C:\Programs\LinqProblems\LinqProblems\obj\Debug\net8.0\LinqProblems.dll
+C:\Programs\LinqProblems\LinqProblems\obj\Debug\net8.0\refint\LinqProblems.dll
+C:\Programs\LinqProblems\LinqProblems\obj\Debug\net8.0\LinqProblems.pdb
+C:\Programs\LinqProblems\LinqProblems\obj\Debug\net8.0\LinqProblems.genruntimeconfig.cache
+C:\Programs\LinqProblems\LinqProblems\obj\Debug\net8.0\ref\LinqProblems.dll
