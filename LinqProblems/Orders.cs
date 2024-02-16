@@ -6,12 +6,10 @@ using System.Threading.Tasks;
 
 namespace LinqProblems
 {
-    public class Students
+    public class Orders
     {
-        public int Sid { get; set; }
-        public string Sname { get; set; }
-
-        public double CGP { get; set; }
-
+        public int OrderId { get; set; }
+        public int CustomerId { get; set; }
+        public decimal Amount { get; set; }
     }
 }

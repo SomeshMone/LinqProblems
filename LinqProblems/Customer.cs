@@ -6,13 +6,9 @@ using System.Threading.Tasks;
 
 namespace LinqProblems
 {
-    public class Employee
+    public class Customer
     {
-        public int ID { get; set; }
+        public int CustomerId { get; set; }
         public string Name { get; set; }
-        public string Department { get; set; }
-        public double Salary { get; set; }
-        public int Age { get; set; }
     }
 }
-;

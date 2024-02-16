@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LinqProblems")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9c593c3dbe48fb76a2d425071389019725bb520d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+995315d2b0dda98db95b30a972eb6cb0c4df28fe")]
 [assembly: System.Reflection.AssemblyProductAttribute("LinqProblems")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LinqProblems")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

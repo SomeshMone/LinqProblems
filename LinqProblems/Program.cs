@@ -29,7 +29,7 @@ namespace LinqProblems
             string employeeWithMaxSalary = employees.OrderByDescending(e => e.Salary).FirstOrDefault().Name;
             Console.WriteLine(employeeWithMaxSalary+" "+max_Salary);
             // Employee who is getting min Salary;
-            Console.WriteLine(" Employee who is getting max Salary;");
+            Console.WriteLine(" Employee who is getting min Salary;");
             var min_Salary = employees.Min(e => e.Salary);
             string employeeWithMinSalary = employees.OrderBy(e => e.Salary).FirstOrDefault().Name;
             Console.WriteLine(employeeWithMinSalary + " " + min_Salary);
@@ -40,8 +40,39 @@ namespace LinqProblems
             var orderStudentsCgpa = students.OrderByDescending(s => s.CGP);
             foreach(var student in orderStudentsCgpa)
             {
-                Console.WriteLine(student.sname + " " + student.CGP);
+                Console.WriteLine(student.Sname + " " + student.CGP);
             }
+
+
+            //Joining Customers and Orders Collectios
+
+            Console.WriteLine("Joining Customers and Orders Objects");
+
+            List<Customer> customers = new List<Customer>
+
+            {
+                new Customer { CustomerId = 1, Name = "Somesh" },
+                new Customer { CustomerId = 2, Name = "Lokesh" },
+                new Customer { CustomerId = 3, Name = "Siva" }
+
+            };
+
+            List<Orders> orders = new List<Orders>
+            {
+                new Orders { OrderId = 1, CustomerId = 1, Amount = 100 },
+                new Orders { OrderId = 2, CustomerId = 1, Amount = 75 },
+                new Orders { OrderId = 3, CustomerId = 2, Amount = 200 },
+                new Orders { OrderId = 4, CustomerId = 3, Amount = 500 }
+            };
+
+            //Inner joining
+
+            var resultQuery = from order in orders join customer in customers on order.CustomerId equals customer.CustomerId select new { orderId = order.OrderId, CustomerName = customer.Name, OrderAmount = order.Amount };
+
+            foreach(var result in resultQuery)
+            {
+                Console.WriteLine("OrderId: " + result.orderId + " CutomerName: " + result.CustomerName + " OrderAmount: " + result.OrderAmount);
+            } 
 
             
 
@@ -70,10 +101,10 @@ namespace LinqProblems
         {
             List<Students> students = new List<Students>()
             {
-                new Students{sid=1, sname="lokesh", CGP=4.5},
-                new Students{sid=2, sname="smith", CGP=4.0},
-                new Students{sid=3, sname="will", CGP=4.6},
-                new Students{sid=4, sname="mark", CGP=3.6}
+                new Students{Sid=1, Sname="Lokesh", CGP=4.5},
+                new Students{Sid=2, Sname="Somesh", CGP=4.0},
+                new Students{Sid=3, Sname="Siva", CGP=4.6},
+                new Students{Sid=4, Sname="Sr", CGP=3.6}
 
             };
             return students;
